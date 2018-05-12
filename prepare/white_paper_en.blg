@@ -1,0 +1,28 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'white_paper_en.blg'
+[38] biber:290> INFO - === Sat May 12, 2018, 22:11:41
+[143] Biber.pm:352> INFO - Reading 'white_paper_en.bcf'
+[289] Biber.pm:777> INFO - Found 21 citekeys in bib section 0
+[300] Biber.pm:3494> INFO - Processing section 0
+[311] Biber.pm:3658> INFO - Looking for bibtex format file 'Mendeley.bib' for section 0
+[471] bibtex.pm:1176> INFO - Decoding LaTeX character macros into UTF-8
+[603] bibtex.pm:1037> INFO - Found BibTeX data source 'Mendeley.bib'
+[630] Utils.pm:149> WARN - ISBN '0736-5845' in entry 'Pedersen2016RobotDeployment' is invalid - run biber with '--validate_datamodel' for details.
+[632] Utils.pm:149> WARN - ISBN '22128271 (ISSN)' in entry 'Stock2016Opportunities4.0' is invalid - run biber with '--validate_datamodel' for details.
+[640] Utils.pm:149> WARN - ISBN '2288-6206' in entry 'Kang2016SmartDirections' is invalid - run biber with '--validate_datamodel' for details.
+[646] Utils.pm:149> WARN - ISBN '0167-6911' in entry 'Zhu2014RobustSystems' is invalid - run biber with '--validate_datamodel' for details.
+[649] Utils.pm:149> WARN - ISBN '1729-8806' in entry 'Liu2013Multi-robotConstraints' is invalid - run biber with '--validate_datamodel' for details.
+[651] Utils.pm:149> WARN - ISBN '0949-0205' in entry 'Lasi2014Industry4.0' is invalid - run biber with '--validate_datamodel' for details.
+[653] Utils.pm:149> WARN - ISBN '0166-3615; 1872-6194' in entry 'Khajavi2014AdditiveChain' is invalid - run biber with '--validate_datamodel' for details.
+[660] Utils.pm:149> WARN - ISBN '1468-0335' in entry 'Coase1937TheFirm' is invalid - run biber with '--validate_datamodel' for details.
+[698] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[698] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[698] Biber.pm:3307> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[698] Biber.pm:3311> INFO - No sort tailoring available for locale 'en-US'
+[719] bbl.pm:526> INFO - Writing 'white_paper_en.bbl' with encoding 'ascii'
+[742] Utils.pm:149> WARN - The entry 'Dolstra2010NixOS:Distribution' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[779] Utils.pm:149> WARN - The entry 'Khajavi2014AdditiveChain' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[796] Utils.pm:149> WARN - The entry 'Leitao2015IndustrialIndustry' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[825] Utils.pm:149> WARN - The entry 'Pedersen2016RobotDeployment' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[869] bbl.pm:619> INFO - Output to white_paper_en.bbl
+[870] Biber.pm:109> INFO - WARNINGS: 12
