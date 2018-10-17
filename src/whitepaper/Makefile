@@ -1,7 +1,8 @@
 PDFLATEX ?= pdflatex -halt-on-error -file-line-error -shell-escape
+XELATEX ?= xelatex
 BIBTEX ?= biber 
 
-all: whitepaper_en.pdf
+all: whitepaper_ch.pdf
 
 .PHONY: clean
 
@@ -32,3 +33,11 @@ whitepaper_en.pdf: whitepaper_en
 	$(PDFLATEX) $^.tex 
 	$(BIBTEX) $^
 	$(PDFLATEX) $^.tex
+
+whitepaper_ch: whitepaper_ch.tex
+
+whitepaper_ch.pdf: whitepaper_ch
+	$(XELATEX) $^.tex 
+	$(BIBTEX) $^
+	$(XELATEX) $^.tex
+
